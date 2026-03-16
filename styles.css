@@ -1,0 +1,57 @@
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+margin: 0;
+background-color: #f5f5f5;
+color: #333;
+}
+
+header {
+padding: 40px;
+}
+
+.hero {
+background-image: url("https://images.unsplash.com/photo-1518770660439-4636190af475");
+background-size: cover;
+background-position: center;
+color: white;
+padding: 80px 20px;
+}
+
+.grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+padding: 40px;
+}
+
+.card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+transition: transform 0.3s;
+}
+
+.card:hover {
+transform: scale(1.1);
+}
+
+.theme-button {
+margin: 20px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+.dark {
+background-color: #121212;
+color: white;
+}
+
+.dark .card {
+background-color: #333;
+}
+
+footer {
+padding: 20px;
+font-weight: bold;
+}
